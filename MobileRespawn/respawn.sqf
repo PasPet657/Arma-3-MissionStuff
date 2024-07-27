@@ -1,5 +1,5 @@
 private _state = 0; //0 = Idle, 1 = Drive
-private _veh = dingo_respawn;
+private _veh = dingo_respawn; //Vehicle Name
 private _respawnMarker = ["respawn_west", "b_med", "Mobiler Respawn"];
 
 while {true} do {
