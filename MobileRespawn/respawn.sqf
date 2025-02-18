@@ -1,6 +1,6 @@
 private _state = 0; //0 = Idle, 1 = Drive
 private _veh = dingo_respawn; //Vehicle Name
-private _respawnMarker = ["respawn_west", "b_med", "Mobiler Respawn"];
+private _respawnMarker = ["respawn_west", "b_med", "Mobiler Respawn"]; //[Marker, MarkerType, MarkerText(Name)]
 
 while {true} do {
 	if(speed _veh == 0) then {
